@@ -2,10 +2,8 @@
 
 namespace SimplestAPI;
 
-class SimplestZoomos extends API/SimplestAPI
+class SimplestZoomos extends API\SimplestAPI
 {
-	//
 }
-
 
 ?>
