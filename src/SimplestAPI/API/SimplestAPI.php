@@ -1,6 +1,6 @@
 <?php
 
-namespace API/SimplestAPI;
+namespace SimplestAPI\API;
 
 class SimplestAPI {
 	protected $apiURL;
