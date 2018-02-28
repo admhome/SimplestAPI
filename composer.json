@@ -2,7 +2,7 @@
     "name": "admhome/simplestapi",
     "description": "Simplest API for data exchange",
     "version": "1.0.0-stable",
-	"license": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "admhome",
