@@ -46,11 +46,6 @@ class SimplestAPI {
 		$addAction = ($method == 'GET')
 			? '?' . http_build_query($requestData)
 			: '';
-
-		// set_time_limit used here before some requeste take much time,
-		// if you sure, that your request don't do it - comment next line
-		set_time_limit(0);
-
 		return json_decode(
 			file_get_contents(
 				$this->apiURL . $action . $addAction,
