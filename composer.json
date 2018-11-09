@@ -23,6 +23,9 @@
     "autoload": {
         "psr-0": {
             "SimplestAPI": "src/"
+        },
+        "psr-4": {
+            "SimplestAPI\\": "src/"
         }
     },
     "minimum-stability": "stable"
